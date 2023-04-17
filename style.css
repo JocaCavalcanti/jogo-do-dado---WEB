@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    margin-top: 50px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#result-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #result-table th,
+  #result-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #result-table th {
+    background-color: #f2f2f2;
+  }
+

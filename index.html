@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo de Dados</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+	<h1>Jogo de Dados</h1>
+	<p id="message"></p>
+	<p id="score"></p>
+	<button id="player1" onclick="playDice(1)">Jogar Dado 1</button>
+	<button id="player2" onclick="playDice(2)">Jogar Dado 2</button>
+	<button id="reset" onclick="resetGame()">Reiniciar Jogo</button>
+    <table id="result-table">
+        <tr>
+          <th>Rodada</th>
+          <th>Jogador 1</th>
+          <th>Jogador 2</th>
+          <th>Vencedor</th>
+        </tr>
+      </table>
+    
+</body>
+</html>
