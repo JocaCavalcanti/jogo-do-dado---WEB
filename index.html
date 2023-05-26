@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
-<body>
+<body onload="restoreGame()">
 	<h1>Jogo de Dados</h1>
 	<p id="message"></p>
 	<p id="score"></p>
@@ -15,13 +15,12 @@
 	<button id="player2" onclick="playDice(2)">Jogar Dado 2</button>
 	<button id="reset" onclick="resetGame()">Reiniciar Jogo</button>
     <table id="result-table">
-        <tr>
-          <th>Rodada</th>
-          <th>Jogador 1</th>
-          <th>Jogador 2</th>
-          <th>Vencedor</th>
-        </tr>
-      </table>
-    
+		<tr>
+		  <th>Rodada</th>
+		  <th>Jogador 1</th>
+		  <th>Jogador 2</th>
+		  <th>Vencedor</th>
+		</tr>
+	</table>
 </body>
 </html>
