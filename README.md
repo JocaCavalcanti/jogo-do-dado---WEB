@@ -1,3 +1,3 @@
 # jogo-do-dado---WEB
 
-Git, foi errado, upei no pc da facul
+O commit foi errado, upei no pc da facul
